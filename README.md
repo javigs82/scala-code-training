@@ -26,7 +26,8 @@ matches the reverse of string.
 Write an efficient algorithm to find K-complementary pairs in a given array of integers. Given Array
 A, pair (i, j) is K- complementary if K = A[i] + A[j]
  
- - Assumptions: given array can contains negative numbers and duplicate elements as countable in the result. 
+ - Assumptions: given array can contains negative numbers and duplicate elements as countable in the result.
+ Array cannot contain more than 5 Million of elements. 
 
  - Big O
  

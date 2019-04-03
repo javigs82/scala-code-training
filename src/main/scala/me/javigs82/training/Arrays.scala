@@ -7,17 +7,22 @@ object Arrays {
     if (input == null || input.isEmpty )
       return List.empty
 
-    val sortInput = input.sortWith(_ < _)
+    if (input.size > 5000000)
+      throw new IllegalArgumentException("input size cannot contain more than 5000000 elements")
+
+    //val sortInput = input.sortWith(_ < _)
+    //quickSorts is faster
+    scala.util.Sorting.quickSort (input)
 
     var i = 0
-    var j = sortInput.length - 1
+    var j = input.length - 1
 
     var result = List[(Int,Int)]()
 
     do {
-      val sum = sortInput(i) + sortInput(j)
+      val sum = input(i) + input(j)
       if (sum == k) {
-        result = result :+ Tuple2(sortInput(i), sortInput(j))
+        result = result :+ Tuple2(input(i), input(j))
         i += 1
         j -= 1
       } else if (sum < k)
