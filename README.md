@@ -31,7 +31,7 @@ A, pair (i, j) is K- complementary if K = A[i] + A[j]
 
  - Big O
  
-   - Runtime: O(N LogN) for sorting + O(N) in worst case to loop over elements equals to O(N Log N) 
+   - Runtime: O(N LogN) for sorting + O(N) for looping over elements. Therefor it is equals to O(N Log N) 
 
    - Space: O(N) for sorting
    
