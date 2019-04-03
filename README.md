@@ -15,7 +15,7 @@ matches the reverse of string.
 
  - Big O
 
-   - Runtime: O(N/2) (here we should avoid constant remove, so O(N/2) is much better than O(N))  
+   - Runtime: O(N/2) (here we should avoid constant deletion, however O(N/2) is much better than O(N))  
    
    - Space: O(1) because it does not need extra space in runtime
 
@@ -31,13 +31,12 @@ A, pair (i, j) is K- complementary if K = A[i] + A[j]
  - Big O
  
    - Runtime: O(N LogN) for sorting + O(N) in worst case to loop over elements equals to O(N Log N) 
-   **Note**: For a better runtime performance, implement it with HashMap and O (N), click on the following 
-   [link](https://thecodebutchery.com/2015/03/29/codility-and-the-k-complementary-pairs-in-array-challenge/)       
 
-   - Space: O(N) for sorting 
+   - Space: O(N) for sorting
    
-### findKcomplementary
-
+   **Note**: For a better runtime performance, implement it with HashMap and O (N), click on the following
+   [link](https://thecodebutchery.com/2015/03/29/codility-and-the-k-complementary-pairs-in-array-challenge/) 
+   
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing 
@@ -92,3 +91,11 @@ sbt run
 ## References
 
  - [why-collections-sort-uses-merge-sort-instead-of-quicksort](https://stackoverflow.com/questions/15154158/why-collections-sort-uses-merge-sort-instead-of-quicksort)
+ 
+## Author
+ 
+ * javigs82 [github](https://github.com/javigs82/)
+ 
+## License
+ 
+ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
