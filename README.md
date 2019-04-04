@@ -1,6 +1,6 @@
 # Scala Code Training
 
-This repo aims to contains different algorithms and quizzes requested by several sources like Hacker Rank 
+This repo aims to contain different algorithms and quizzes requested by several sources like Hacker Rank 
 or coding interviews. Algorithm are analyzed in Big O notation describing the limiting behaviour of a function both 
 runtime and space.
 
@@ -27,7 +27,6 @@ Write an efficient algorithm to find K-complementary pairs in a given array of i
 A, pair (i, j) is K- complementary if K = A[i] + A[j]
  
  - Assumptions: given array can contains negative numbers and duplicate elements as countable in the result.
- Array cannot contain more than 5 Million of elements. 
 
  - Big O
  

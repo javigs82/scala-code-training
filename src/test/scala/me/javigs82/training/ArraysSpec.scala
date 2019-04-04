@@ -41,20 +41,4 @@ class ArraysSpec extends FlatSpec {
     assert(result.contains((4, 5)))
   }
 
-  it should "return something in less than 2 seconds for huge Input (5Million) and repeated elements" in {
-    val input = ArrayBuffer.fill(5000000)(Random.nextInt)
-    val init = System.currentTimeMillis()
-    Arrays.findKcomplementary(input.toArray, 9)
-    val total = System.currentTimeMillis() - init
-    assert(total < 2000)
-  }
-
-
-  it should "throw IllegalArgumentException if input contains more than 5 million of elements" in {
-    intercept[IllegalArgumentException] {
-      val input = ArrayBuffer.fill(6000000)(Random.nextInt)
-      Arrays.findKcomplementary(input.toArray, 9)
-    }
-  }
-
 }

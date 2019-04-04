@@ -7,9 +7,6 @@ object Arrays {
     if (input == null || input.isEmpty )
       return List.empty
 
-    if (input.size > 5000000)
-      throw new IllegalArgumentException("input size cannot contain more than 5000000 elements")
-
     //val sortInput = input.sortWith(_ < _)
     //quickSorts is faster
     scala.util.Sorting.quickSort (input)
