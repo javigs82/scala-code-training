@@ -34,7 +34,7 @@ A, pair (i, j) is K- complementary if K = A[i] + A[j]
 
    - Space: O(N) for sorting
    
-   **Note**: For a better runtime performance, implement it with HashMap and O (N), click on the following
+   **Note**: For a better runtime performance, implement it with HashMap and O (N), click in this
    [link](https://thecodebutchery.com/2015/03/29/codility-and-the-k-complementary-pairs-in-array-challenge/) 
    
 ## Getting Started
