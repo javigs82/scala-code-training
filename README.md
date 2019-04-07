@@ -33,8 +33,8 @@ A, pair (i, j) is K- complementary if K = A[i] + A[j]
    - Runtime: O(N LogN) for sorting + O(N) for looping over elements. Therefor it is equals to O(N Log N) 
 
    - Space: O(N) for sorting
-   
-   **Note**: For a better runtime performance, implement it with HashMap and O (N), click in this
+
+   **Note**: For a better runtime performance, implement this algorithm with HashMap and O (N), click in this
    [link](https://thecodebutchery.com/2015/03/29/codility-and-the-k-complementary-pairs-in-array-challenge/) 
    
 ## Getting Started
