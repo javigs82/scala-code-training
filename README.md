@@ -11,7 +11,7 @@ runtime and space.
 Write an efficient algorithm to check if a string is a palindrome. A string is a palindrome if the string
 matches the reverse of string.
 
- - Assumptions: if (input.isEmpty || input.length == 1) input is not a palindrome
+ - Assumptions: if (input.isEmpty || input.length == 1) input is a palindrome
 
  - Big O
 

@@ -29,12 +29,12 @@ class StringsSpec extends FlatSpec {
     assert(!Strings.isPalindrome("peepa"))
   }
 
-  it should "return false for empty input" in {
-    assert(!Strings.isPalindrome(""))
+  it should "return true for empty input" in {
+    assert(Strings.isPalindrome(""))
   }
 
-  it should "return false for input length equals 1" in {
-    assert(!Strings.isPalindrome("a"))
+  it should "return true for input length equals 1" in {
+    assert(Strings.isPalindrome("a"))
   }
 
 }
